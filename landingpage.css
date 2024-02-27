@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color:rgb(31, 31, 125);
+    color: white;
+    display: flex;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 80px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 600px;
+}
+
+.nav-contact {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.nav-contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-linkedin {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.nav-linkedin a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-email {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.nav-user {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+/* Hero Section */
+
+.hero-section {
+    height: 305px;
+    background-color:rgb(31, 31, 125);
+    color: white;
+    display: flex;
+}
+
+.large-text p {
+    font-size: 37px;
+    color: white;
+    padding-left: 27px;
+    padding-top: 40px;
+}
+
+.medium-text p {
+    font-size: 17px;
+    color: white;
+    padding-left: 27px;
+    padding-top: 20px;
+}
+
+.small-text p {
+    font-size: 12px;
+    color: white;
+    padding-left: 27px;
+    padding-top: 20px;
+}
+
+.box {
+    height: 270px;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 700px;
+    margin-top: 30px;
+    background-color:white;
+    color: black;
+}
+
+.box-text p {
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 90px;
+    font-size: 25px;
+}
+
+.input1 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.input2 {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 27px;
+    margin-right: 10px;
+}
+
+.box1 {
+    height: 50px;
+    width: 300px;
+}
+
+.box1 button {
+    height: 35px;
+    width: 220px;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: blue;
+    border: 2px solid rgb(83, 83, 191);
+    border-radius: 40px;
+    color: white;
+    font-size: 17px;
+}
+
+.box2 button {
+    height: 35px;
+    width: 220px;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: blue;
+    border: 2px solid rgb(83, 83, 191);
+    border-radius: 40px;
+    color: white;
+    font-size: 17px;
+}
+.box2 p {
+    margin-top: 6px;
+    color: rgb(83, 83, 191);
+}
+
+.heading p {
+    height: 40px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.text p {
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fbox1 {
+    height: 200px;
+    width: 310px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon1 {
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.bold-text1 {
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 17px;
+}
+
+.footer-text1 {
+    padding-top:20px;
+    text-align: center;
+}
+
+.fbox2 {
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon2 {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.bold-text2 {
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.footer-text2 {
+    padding-top:20px;
+    text-align: center;
+}
+
+.fbox3 {
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon3 {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.bold-text3 {
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.footer-text3 {
+    padding-top:20px;
+    text-align: center;
+}
+
+.last-footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 button {
+    height: 35px;
+    width: 220px;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: blue;
+    border: 2px solid rgb(83, 83, 191);
+    border-radius: 40px;
+    color: white;
+    font-size: 17px;
+}
+
+.box3 p {
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+}
